@@ -1,0 +1,35 @@
+% koma_env.tex
+\documentclass[a4paper]{scrlttr2}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{url}
+
+\enlargethispage{3\baselineskip}
+\voffset = 20pt
+
+ 
+ 
+\setkomavar{fromname}{Igor Klepić}
+\setkomavar{fromaddress}{Ulica Slavka Gruma 92 \\ 8000 Novo mesto \\ Slovenija}
+\setkomavar{fromphone}{0123 45679}
+
+ 
+\begin{document}
+ 
+\begin{letter}{Center za socialno delo Novo mesto \\ Resslova 7b \\ 8000 Novo mesto \\ Slovenija}
+ 
+\KOMAoptions{fromphone=false,fromfax=false}
+\setkomavar{subject}{Dopolnitev vloge za državno štipendijo.}
+
+\opening{Pozdravljeni,}
+ 
+V prilogi Vam pošiljam potrdilo o začasnem prebivališču za potrebe reševanja vloge za državno štipendijo.
+
+\closing{S spoštovanjem,}
+
+ 
+\end{letter}
+ 
+\end{document}

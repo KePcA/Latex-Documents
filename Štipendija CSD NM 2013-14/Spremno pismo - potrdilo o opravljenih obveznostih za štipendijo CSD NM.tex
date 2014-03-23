@@ -1,0 +1,36 @@
+% koma_env.tex
+\documentclass[a4paper]{scrlttr2}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{url}
+
+\enlargethispage{3\baselineskip}
+\voffset = 20pt
+
+ 
+ 
+\setkomavar{fromname}{Igor Klepić}
+\setkomavar{fromaddress}{Ulica Slavka Gruma 92 \\ 8000 Novo mesto \\ Slovenija}
+\setkomavar{fromphone}{0123 45679}
+
+ 
+\begin{document}
+ 
+\begin{letter}{Center za socialno delo Novo mesto \\ Resslova 7b \\ 8000 Novo mesto \\ Slovenija}
+ 
+\KOMAoptions{fromphone=false,fromfax=false}
+\setkomavar{subject}{Dopolnitev vloge za državno štipendijo}
+
+\opening{Pozdravljeni,}
+ 
+na centru za socialno delo Novo mesto sem dne 30.09.2013 oddal vlogo za državno štipendijo za študijsko leto 2013/2014. Rečeno mi je bilo, da je oddana vloga nepopolna in da naj po pošti pošljem še potrdilo o opravljenih obveznostih na dodiplomskem študiju, kar Vam tudi pošiljam v prilogi. Upam, da boste sedaj lahko brez težav vlogo razrešili.
+\\
+\\
+\closing{S spoštovanjem,}
+
+ 
+\end{letter}
+ 
+\end{document}

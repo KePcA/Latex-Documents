@@ -1,0 +1,39 @@
+% koma_env.tex
+\documentclass[a4paper]{scrlttr2}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{url}
+
+\enlargethispage{3\baselineskip}
+\setlength{\parindent}{0cm}
+\voffset = 20pt
+
+ 
+ 
+\setkomavar{fromname}{Igor Klepić}
+\setkomavar{fromaddress}{Ulica Slavka Gruma 92 \\ 8000 Novo mesto \\ Slovenija}
+\setkomavar{fromphone}{0123 45679}
+\setkomavar{fromemail}{igorklepic@gmail.com}
+
+ 
+\begin{document}
+ 
+\begin{letter}{Fundacija Študentski tolar \\ Ustanova ŠOU v Ljubljani \\ Kersnikova 4 \\ 1000 Ljubljana \\ Slovenija}
+ 
+\KOMAoptions{fromphone=false,fromfax=false}
+\setkomavar{subject}{Obrazložitev potrdila o skupnem gospodinjstvu}
+
+\opening{Pozdravljeni,}
+sporočam Vam, da v skupnem gospodinjstvu na naslovu \textit{Ulica Slavka Gruma 92, 8000 Novo mesto} živiva le jaz, \textbf{Igor Klepić} in moja mama, \textbf{Dara Klepić}, ne glede na to, da imata stalno prebivališče na tem naslovu prijavljena še moj oče, \textbf{Petar Klepić} in moj brat, \textbf{Pajo Margetić}.
+\\
+\\
+Oče Petar Klepić ni v zakonski zvezi z mojo mamo (sta ločena), nahaja pa se v socialno varstvenem zavodu v Hrastovcu. Brat Pajo Margetić živi v lastnem gospodinjstvu na naslovu Šegova ulica 8, 8000 Novo mesto.
+\closing{S spoštovanjem,}
+
+
+ 
+\end{letter}
+ 
+\end{document}
