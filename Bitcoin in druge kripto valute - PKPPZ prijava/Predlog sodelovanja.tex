@@ -1,0 +1,109 @@
+% Template for PLoS
+% Version 1.0 January 2009
+%
+% To compile to pdf, run:
+% latex plos.template
+% bibtex plos.template
+% latex plos.template
+% latex plos.template
+% dvipdf plos.template
+
+\documentclass[10pt]{article}
+
+% amsmath package, useful for mathematical formulas
+\usepackage{amsmath}
+% amssymb package, useful for mathematical symbols
+\usepackage{amssymb}
+
+% graphicx package, useful for including eps and pdf graphics
+% include graphics with the command \includegraphics
+\usepackage{graphicx}
+
+% cite package, to clean up citations in the main text. Do not remove.
+%\usepackage{cite}
+
+\usepackage{color} 
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[slovene]{babel}
+% Use doublespacing - comment out for single spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+
+% Text layout
+\topmargin 0.0cm
+\oddsidemargin 0.5cm
+\evensidemargin 0.5cm
+\textwidth 16cm 
+\textheight 21cm
+
+% Bold the 'Figure #' in the caption and separate it with a period
+% Captions will be left justified
+%\usepackage[labelfont=bf,labelsep=period,justification=raggedright]{caption}
+
+% Use the PLoS provided bibtex style
+\bibliographystyle{plos2009}
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+
+% Leave date blank
+\date{}
+
+\pagestyle{myheadings}
+%% ** EDIT HERE **
+
+
+%% ** EDIT HERE **
+%% PLEASE INCLUDE ALL MACROS BELOW
+
+%% END MACROS SECTION
+
+\begin{document}
+
+% Title must be 150 characters or less
+\begin{flushleft}
+
+{\Large
+\textbf{Predlog sodelovanja - Bitcoin in druge kripto valute}
+}
+
+
+\vspace{5mm}
+
+\bf Igor Klepić\\Ulica Slavka Gruma 92\\8000 Novo mesto
+\\
+E-mail: igorklepic@gmail.com
+\end{flushleft}
+
+% Please keep the abstract between 250 and 300 words
+\subsection*{Splošno}
+
+Forex trg mi je zelo blizu, saj ga že dobri dve leti aktivno spremljam . Bitcoin-i predstavljajo neko alternativo, zato so toliko bolj zanimivi za preučevanje. Projekt mi predstavlja priložnost, da se s tem fenomenom podrobneje seznanim in nadgradim svoje znanje o finančnih trgih. Iz vsebine me posebej zanimajo različni načini trgovanja in gradnja trgovalnih modelov za podporo trgovanju, po drugi strani pa kot računalničarja tudi sama infrastruktura in tehnologija delovanja samega sistema.
+
+% Please keep the Author Summary between 150 and 200 words
+% Use first person. PLoS ONE authors please skip this step. 
+% Author Summary not valid for PLoS ONE submissions.   
+\subsection*{Izkušnje iz tematike projekta}
+
+Izkušnje na tem področju večinoma izhajajo iz preučevanja forex trgov. Pri tem mislim predvsem na strategije trgovanja, ki se uporabljajo za učinkovito upravljanje premoženja in so del tehnične in fundamentalne analize. Velika podobnost z Bitcoin-i je v tem, da sta oba trga decentralizirana. 
+
+\subsection*{Prispevek k projektu}
+
+K projektu bi prispeval svoje poznavanje načinov trgovanja na forex trgu in jih poskušal uporabiti pri trgovanju z Bitcoin-i. S svojim odličnim programerskim znanjem bi veliko pripomogel k učinkoviti implementaciji infrastrukture za zajem podatkov, potrebnih pri analizi. 
+
+
+\subsection*{Tehnološki izzivi}
+Gre za zelo mlado tehnologijo, ki je še v fazi razvoja in se še vedno uveljavlja na trgu, zato je izzivov zelo veliko. Pri tem bi rad izpostavil reševanje težkih matematičnih problemov, ki zagotavlja, da ne pride do večkratnega vnovčevanja. Sama ideja se mi zdi zelo zanimiva in bi se s tem rad bolje seznanil. Poleg tega pa bi se rad podal v raziskovanje novih in hkrati uspešnih poslovnih modelov. Ti predstavljajo težke matematične izzive, saj so finančni trgi sami po sebi zelo zapleteni in kot tak je tudi trg kriptovalut.
+
+\subsection*{Ambicije in inovacije}
+Ambicije, ki jih imam pri tem projektu so, da s skupinskim delom ustvarimo dobre trgovalne modele, s katerimi bomo lahko uspešno nastopili na trgu kriptovalut. Pri tem se mi poraja ideja, da bi lahko kot eni izmed prvih kriptovalute začeli približevati ljudem in podjetjem, kar bi povečalo njihovo razpoznavnost. Predstavili bi jih lahko kot dodatno menjalno sredstvo ali pa kot način s katerim lahko učinkovito upravljamo s premoženjem. Tako bi kot posredniki privabili kapital, s katerim bi lahko upravljali.
+
+
+
+\end{document}
