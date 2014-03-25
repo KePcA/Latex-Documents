@@ -1,0 +1,39 @@
+% koma_env.tex
+\documentclass[a4paper]{scrlttr2}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{url}
+
+\enlargethispage{3\baselineskip}
+\setlength{\parindent}{0cm}
+\voffset = 20pt
+
+ 
+ 
+\setkomavar{fromname}{Igor Klepić}
+\setkomavar{fromaddress}{Ulica Slavka Gruma 92 \\ 8000 Novo mesto \\ Slovenija}
+\setkomavar{fromphone}{0123 45679}
+\setkomavar{fromemail}{igorklepic@gmail.com}
+
+ 
+\begin{document}
+ 
+\begin{letter}{Fakulteta za matematiko in fiziko \\ Jadranska ulica 19 \\ 1000 Ljubljana \\ Slovenija}
+ 
+\KOMAoptions{fromphone=false,fromfax=false}
+\setkomavar{subject}{Izjava o sodelovanju}
+
+\opening{}
+Spodaj podpisani Igor Klepić, stanujoč na Ulica Slavka Gruma 92, 8000 Novo mesto se obvezujem, da bom v 6 mesecih projekta mesečno oddelal 32 ur na mesec v skladu z navodili mentorja iz fakultete za matematiko in fiziko, dr. Gašper Jakliča in mentorja iz podjetja Abelium d.o.o., dr. Boris Horvata pri projektu \textit{Bitcoin in druge kriptovalute} iz naslova projekta \textit{po kreativno poti do praktičnega znanja}.
+\\
+\\
+
+\closing{Ljubljana, 25. marec 2014.}
+
+
+ 
+\end{letter}
+ 
+\end{document}
